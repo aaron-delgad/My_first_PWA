@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AngularPwa
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# My_first_PWA
+What is a pwa, characteristics of a PWA, Services Workers and other topics.
+>>>>>>> 79c2179822b19729faf21374988e98e33e1ef8eb
