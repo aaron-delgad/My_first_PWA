@@ -7,13 +7,19 @@ import { HttpClientModule } from '@angular/common/http';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MatButtonModule} from '@angular/material/button';
+import { LayoutModule } from './module/layout/layout.module';
+import { DialogComponent } from './module/dialog/dialog.component';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
+    MatDialogModule,
+    LayoutModule,
     MatButtonModule,
     BrowserAnimationsModule,
     AppRouting,
@@ -27,6 +33,9 @@ import { MatButtonModule} from '@angular/material/button';
 
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    DialogComponent
+  ]
 })
 export class AppModule { }

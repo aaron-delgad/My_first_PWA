@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+  <button mat-flat-button color="primary" (click)="goProduct()">
+    Productos
+  </button>
+  <span class="example-spacer"></span>
+  <button mat-flat-button color="primary" (click)="installByUser()" *ngIf="installEvent">Instala App!</button>
+  <button mat-icon-button >
+    <mat-icon >shopping_cart</mat-icon>
+  </button>
+</mat-toolbar>
+
